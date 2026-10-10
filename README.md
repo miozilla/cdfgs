@@ -6,6 +6,12 @@ cdfgs : | NYT Best Sellers | Cloud Data Fusion, Pipeline Studio, Managed Service
 - Create Data Fusion instance
 - Deploy sample pipeline (NYT bestseller data JSON file transformations & filter out matching results into BigQuery)
 
+
+## Similar Skills Set
+- AWS : Glue 
+- Azure : Data Factory
+
+
 ## Cloud Data Fusion NYT Best Sellers
 
 

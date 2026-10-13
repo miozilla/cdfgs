@@ -1,0 +1,1 @@
+SELECT * FROM `"PROJECT_ID".GCPQuickStart.top_rated_inexpensive` LIMIT 30

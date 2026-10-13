@@ -1,0 +1,64 @@
+{
+  "name": "autoscaling-dataproc",
+  "label": "Autoscaling Dataproc",
+  "description": "Creates Autoscaling Dataproc clusters for program runs",
+  "scope": "SYSTEM",
+  "status": "ENABLED",
+  "provisioner": {
+    "name": "gcp-dataproc",
+    "properties": [
+      {
+        "name": "masterMachineType",
+        "value": "e2",
+        "isEditable": true
+      },
+      {
+        "name": "masterNumNodes",
+        "value": "1",
+        "isEditable": true
+      },
+      {
+        "name": "masterCPUs",
+        "value": "2",
+        "isEditable": true
+      },
+      {
+        "name": "masterMemoryMB",
+        "value": "8192",
+        "isEditable": true
+      },
+      {
+        "name": "masterDiskGB",
+        "value": "1000",
+        "isEditable": true
+      },
+      {
+        "name": "workerCPUs",
+        "value": "2",
+        "isEditable": true
+      },
+      {
+        "name": "workerMemoryMB",
+        "value": "8192",
+        "isEditable": true
+      },
+      {
+        "name": "workerDiskGB",
+        "value": "200",
+        "isEditable": true
+      },
+      {
+        "name": "workerMachineType",
+        "value": "e2",
+        "isEditable": true
+      },
+      {
+        "name": "enablePredefinedAutoScaling",
+        "value": "true",
+        "isEditable": true
+      }
+    ],
+    "totalProcessingCpusLabel": "Up to 84"
+  },
+  "created": 1791610111
+}
